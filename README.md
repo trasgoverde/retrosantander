@@ -160,7 +160,7 @@ grep --no-filename --only-matching \
 Ahora podemos descargar iterativamente todas las fichas del CDIS…
 
 ```bash
-mkdir images && curl -K images.txt
+curl -K images.txt
 ```
 
 ### 4. Extraer la dirección de todas las imágenes
@@ -187,7 +187,7 @@ grep --no-filename --only-matching \
 La descarga de las imágenes se hace con cURL, introduciendo la sucesión de URL y ficheros de salida con el fichero de texto creado en al paso anterior.
 
 ```bash
-mkdir jpeg && curl -K jpeg.txt
+curl -K jpeg.txt
 ```
 
 ### 6. Interpretar las fichas y crear el repositorio JSON
